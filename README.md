@@ -1,6 +1,6 @@
 # Coffee and Code
 
-[Imgur](https://i.imgur.com/UJzD5zA.png)
+![Imgur](https://i.imgur.com/UJzD5zA.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) 
@@ -33,12 +33,12 @@
 * If you want to contribute, we prefer that you create an issue before making a PR and link your PR to that issue.
 * If you have modified/added code work, make sure the code compiles before submitting.
 * Strictly use snake_case (underscore_separated) in your file_name and push it in correct folder.
-* Do not update the **[README.md](https://github.com/Algo-Phantoms/Algo-Phantoms-Frontend/blob/master/README.md).**
+* Do not update the **[README.md](https://github.com/restrictedCodex/Coffee-and-code/blob/main/README.md).**
 
 
 ## Code Of Conduct:
 
-You can find our Code of Conduct [here](https://github.com/Algo-Phantoms/Algo-Phantoms-Frontend/blob/master/CODE_OF_CONDUCT.md).
+You can find our Code of Conduct [here](https://github.com/restrictedCodex/Coffee-and-code/blob/main/Codeofconduct.md).
 
 ## License 📝 
 
