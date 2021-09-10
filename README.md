@@ -52,7 +52,10 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
 
 <h2 align="center">Made with ❤ by ITESA</h2>
 
-
+<div align="center">
+  
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+  
+</div>
