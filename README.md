@@ -12,6 +12,7 @@
 
 **💻 Coffee and Code is a Question Bank that provides solving patterns and resources along with solutions in diffrent language to help you towards your DSA journey.📰🔥**.
 
+
 ## 🔥 Features
 
 📰 Find diffrent approches to solving DSA problems.
@@ -21,10 +22,13 @@
 🚀 Give your DSA journey a proper guide using the repo resources.
 
 ## 🛠 Languages Used
-- C++
-- Java
-- Python
-- Javascript
+![Image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+![Image](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+![Image](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
 ## Contribution Guidelines ⚙️
 
