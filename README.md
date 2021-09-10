@@ -19,7 +19,7 @@
 
 ✨ Brainstorm ideas with others during Live sessions on our discord.
 
-🚀 Give your DSA journey a proper guide using the repo resources.
+🚀 Give your DSA journey a proper guide using the repo resources and guide.
 
 ## 🛠 Languages Used
 ![Image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
