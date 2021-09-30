@@ -1,0 +1,36 @@
+Introduction of Hashing:
+
+1)It is used to implement dictionaries/maps and sets.
+
+2)It does search, insert and delete operation in O(1) time which is much better than any other data structure.
+
+3)But for some operations it is very costly .Like for sorting or for finding keys just smaller than 
+or just bigger takes a high cost.
+
+4)Not useful for:
+    * Finding closest keys.
+    * Sorted order .
+    (For the above two operations we use AVL tree or red black tree)
+    * Prefix searching 
+    (For this we use trie data structure)
+
+
+Application of Hashing:
+
+Second most used data structures after arrays.
+
+1)Implementing dictionaries/maps.
+
+2)Database indexing. (or we use B or B+ indexing)
+
+3)Cryptography
+
+4)Caches (in websites)
+
+5)Symbol tables in compilers/instructors : used to detect keywords
+
+6)Routers
+
+7)Getting data from databases : used in associative arrays for storing data.
+
+8)Many more.
