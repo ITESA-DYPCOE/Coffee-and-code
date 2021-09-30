@@ -1,0 +1,27 @@
+************Chaining**********
+
+1)Hash table never fills.
+2)Less sensitive to hash function.
+3)Poor cache performance.
+4)Extra space for links.
+
+PERFROMANCE: (1+alpha)
+Eg : alpha=0.9 ,perf=1.9
+
+************Open addressing**********
+
+1)Table may become full and resizing becomes mandatory.
+2)Extra cases requirred for clustering.
+3)Cache friendly.
+4)Extra space might be needed to achieve same performance as chaining.
+
+PERFROMANCE: 1/(1-alpha)
+Eg : alpha=0.9 ,perf=10
+So we need to reduce the aplha -> increase the size of the hash table.
+
+
+*************FINAL CONCLUSION*************
+
+If we know the size of the chain in advance and can avoid table resizing (hence have extra space) , we can use open addressing.
+
+But if we want to use dynamic structure and have better performance we use chaining.

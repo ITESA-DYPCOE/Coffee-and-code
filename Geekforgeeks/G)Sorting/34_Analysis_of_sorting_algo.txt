@@ -1,0 +1,38 @@
+OVERVIEW OF SORTING ALGORITHMS:
+
+1) Binary array prob : can be solved using partition algo (lomuto and hoare's).
+
+2)Array with three value: can also be solved by using DUTCH NATION FLAG ALGORITHM.
+
+3)Array of size n and small ranged val : counting sort.
+
+4)Array of size n and range is of size n^2 or n^3 or above : radix sort.
+
+5)Array of uniformly distributed data over a range: Bucket sort.
+
+6)Where memory writes are costly : cycle/selection sort.
+
+7)When adjacent swapes are allowed : bubble sort(better version of bubble sort is cocktail sort).
+
+8)When array size is small: insertion sort.
+
+9)When available extra memory is less: Shell sort (it does not use extra memory and takes O(n(logn)^2) time).
+
+
+
+GENERAL PURPOSE SORTING ALGORITHM:
+
+For random data we need atleast nlogn time to sort.
+
+Merge sort(nlogn) (works well for linked list or some special cases, also it stable) 
+(its memory can be reduced to O(1) also works well for sequencial reads) (divide and conq hence be use for parallel sorting)
+Heap sort (nlogn) 
+Quick sort (nlogn in avg and n^2 in worst) (fastest)
+
+HYBRID SORTING:
+
+Tim sort(python , merge+insertion)
+
+Introsort (cpp, quick+heap(when no calls >logn)+insertion(small arrays))
+
+Stable sort (stable_sort in cpp, implemented using merge sort)
