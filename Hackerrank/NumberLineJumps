@@ -1,0 +1,36 @@
+//The code given below is the solution for the Hackerrank question named Number Line Jumps. The link for the question is given below:
+//https://www.hackerrank.com/challenges/kangaroo/problem
+
+#include<iostream>
+
+using namespace std;
+
+int main(void)
+{
+    int x1, x2, v1, v2, t, j;
+
+    cin>>x1>>v1>>x2>>v2;
+
+    if ((v2-v1)!=0)
+        {
+            j= (x1-x2)/(v2-v1);
+    
+    if (((j>=0) && ((x1+(v1*j))== (x2+(v2*j))) && ((v2-v1)!=0)))
+        {
+            cout<<"YES\n";
+        }
+
+    else    
+        {
+            cout<<"NO\n";
+        } 
+        }
+        
+    else if ((v2-v1)==0)
+        {
+            cout<<"NO\n";
+        }           
+       
+
+    return 0;    
+}
