@@ -1,0 +1,46 @@
+Quick sort:
+
+********Time complexity*********=
+
+Worst case:O(n^2) (when array divided in two parts of 1 and n-1/when array is sorted)
+Best case:O(nlogn) (when array divided in 2 equal parts)
+Average case:O(nlogn)
+
+*********Space complexity********
+
+The partition function of quick sort is inplace.
+
+Overall the inplace nature depends on the definition of inplace algo.
+If we define inplace as taking auxillary space then quick sort is not inplace due to recursive call stack.
+
+The other definition of inplace is the algorithm which do not copy the elements into temp array so then quick sort is inplace.
+
+
+*********Space requirred for recursive call stack***********
+
+Extra space requirred can be seen as height of the recursion tree.
+
+Worst case : theta(n) (when array divided in two parts of 1 and n-1 parts it occupies call stack due to n recursive calls)
+Best case: theta(logn+1) (when array is divided in two equal parts of n/2 and n/2).
+
+This space is requirred only for quick sort not partition func's.
+
+******Hoare's vs Lomuto's*******:
+
+Hoare’s scheme is more efficient than Lomuto’s partition scheme because it does three times fewer swaps on average, and
+it creates efficient partitions even when all values are equal.
+
+Like Lomuto’s partition scheme, Hoare partitioning also causes Quick sort to degrade to O(n^2) when the input array is 
+already sorted, it also doesn’t produce a stable sort.
+
+
+Note that in this scheme, the pivot’s final location is not necessarily at the index that was returned, and the next two segments that 
+the main algorithm recurs on are (lo..p) and (p+1..hi) as opposed to (lo..p-1) and (p+1..hi) as in Lomuto’s scheme.
+
+
+
+******Randomized pivot********:
+The quick sort algo (lomuto & hoare) will always give the worst time and space complexity with sorted array so it leads to pattern of worst cases.
+
+To prevent this from happening we use random pivot from l to r and swap it with the pre-decided pivot of our algo. This prevents a pattern of worst cases 
+and can be proved to have a time complexity of O(nlogn) and space complexity of O(logn).

@@ -1,0 +1,31 @@
+Hash functions group large amount of keys into smaller groups.
+
+Also hash functions should generate the same value for same input key.
+
+How hash functions work:
+1)Should always map a large key to same small key.
+2)Should generate values from 0 to m-1
+3)Should be fast , O(1) for integers and O(len) for strings of length of len
+4)Should uniformly distribute large keys into hash table slot.
+
+Some examples of hash functions:
+
+1)Hash_func(large_keys)=large_keys%m (though this leads to lot of collision)
+(typically this number m is chosen as a prime number close to the size of the hash table as less common 
+factor and better distibution of large keys)
+(bad decision is to use power of 2 or 10 or prime numbers close to them as they consider only some bits 
+or some digits)
+(so the above is simple/bad hash function )
+
+2)For strings, weighting sum.
+ str[]="abcd"
+ sum=str[0]*x^0+str[1]*x^1...
+(This hash function is better than taking just the sum of ASCII values)
+
+3)Universal hashing : means to have a set of hash functions and to randomly pick one of them to hash 
+a value.
+
+IMP PTS:
+Collision is bound to happen.
+
+Size of hash table will be proportional to the numbers of elements we want to insert in it.
