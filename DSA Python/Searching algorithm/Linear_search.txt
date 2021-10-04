@@ -1,0 +1,19 @@
+        Linear search also called sequential search is a sequential method for finding a particular value in a list.
+This method checks the search element with each element in sequence until the desired element is found or list is exhausted.
+In this searching algorithm, list need not be ordered.
+
+
+
+Pseudo Code for Linear seach :-
+
+    1. Traverse the array using for loop.
+
+
+    2. In every iteration, compare the target search key value with the current value of the list.
+    
+        •If the value matches, display the current index and value of the array 
+    
+        •If the value do not match, move on to the next array element.
+
+
+    3. If no match is found display the search element not found.
