@@ -1,0 +1,29 @@
+		Binary search also called as half_interval search algorithm.
+It finds the position of a search element within a sorted array.
+The binary search algorithm can be done as divide-and-conquer algorithm and executes in logarithmic time.
+
+
+Pseudo code for Binary search:-
+
+
+	1.  Start with the middle element:
+
+		• If the search element is equal to the Middle element of the array 
+		i.e., the middle value = number of elements in the array /2. 
+		Then return the index of middle element,
+
+		• If not, then compare the middle element with the search value,
+
+		• If the search element is greater than the nuber in the middle index,
+		then select the elements to the right side of the middle index ,
+		and goto Step-1.
+
+		• If the search element is less then the number in the middle index ,
+		then select the elements to the left side of the middle index,
+		and start with Step-1.
+
+
+	2.  When a match is found , display success message eith the index of the element matched.
+
+
+	3.  if no match is found for all comparisons, then display unsuccessful message.
